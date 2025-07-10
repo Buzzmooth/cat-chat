@@ -290,6 +290,16 @@ input[type='text']:focus {
   filter: brightness(0.8) sepia(1);
 }
 
+.sign {
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  bottom: 10px;
+  right: 10px;
+  font-size: 10px;
+  text-transform: none;
+}
+
 a {
   color: #fff;
   text-decoration: none;
@@ -298,11 +308,4 @@ a {
 
 a:hover {
   text-decoration: underline;
-}
-
-@media only screen and (max-width: 620px) {
-  /* For mobile phones: */
-  .menu, .main, .right {
-    width: 100%;
-  }
 }
